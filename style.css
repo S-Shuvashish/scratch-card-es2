@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    width: 100%;
+    height: 100vh;
+    background: aliceblue;
+  }
+  
+  #container{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .h1{
+      font-size: large;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 500;
+  }
+  #scratch-card{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    user-select: none;
+  }
+  
+  img.canvas{
+    border-radius: 10px;
+  }
+  
+  #scratch-card:active{
+    transform: scale(1.05);
+  }
+  
